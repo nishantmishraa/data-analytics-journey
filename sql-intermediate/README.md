@@ -1,88 +1,32 @@
-# Intermediate SQL 🚀
+# Intermediate SQL
 
-This folder documents my transition from **beginner SQL to intermediate-level SQL** through hands-on practice and real query writing.
+This folder contains my **intermediate-level SQL practice**, focused on writing queries that answer real business questions.
 
-The focus here is not memorization, but understanding **how SQL is used to answer real business questions**.
+The goal here was to move beyond basic SELECT statements and learn how to **combine data, apply logic, analyze results, and think like an analyst**.
 
----
+## Topics Covered
+- Joins (INNER, LEFT, RIGHT, FULL)
+- Union & Union All
+- String functions
+- Subqueries
+- CASE statements (conditional logic in SQL)
+- Window functions (ROW_NUMBER, RANK, DENSE_RANK, PARTITION BY)
 
-## 📚 Topics Covered
+## What I Learned
+- How different JOIN types affect results
+- How to stack and compare datasets using UNION
+- How to clean and manipulate text data
+- How to break complex problems using subqueries
+- How to apply IF–ELSE logic using CASE
+- How to rank and analyze data without collapsing rows
 
-### 1. Joins
-- INNER JOIN
-- LEFT JOIN
-- RIGHT JOIN
-- FULL JOIN
-- Table aliasing
-- Understanding `ON` vs `WHERE` in joins
-
-### 2. Union Operations
-- UNION
-- UNION ALL
-- When to use UNION vs JOIN
-
-### 3. String Functions
-- UPPER, LOWER
-- CONCAT, SUBSTRING
-- LENGTH
-- REPLACE
-- TRIM
-- LIKE
-- COALESCE
-
-### 4. Subqueries
-- Subqueries in WHERE
-- Subqueries in SELECT
-- Subqueries in FROM
-- Breaking complex problems into nested queries
-
-### 5. Window Functions
-- ROW_NUMBER
-- RANK
-- DENSE_RANK
-- PARTITION BY
-- Ranking and analysis without collapsing rows
-
----
-
-## 🧠 Key Learnings
-
-- How data flows through a query step by step
-- Why JOIN conditions belong in `ON`, not `WHERE`
-- How subqueries execute before the outer query
-- The difference between aggregation and window functions
-- How to read and reason about complex SQL queries
-
----
-
-## ⚠️ Challenges Faced
-
-- Confusion between JOIN types and their outputs
-- Understanding subquery execution order
+## Challenges
+- Understanding join behavior
+- Visualizing subquery execution
 - Differentiating RANK vs DENSE_RANK
-- Avoiding aliasing mistakes in multi-table queries
+- Writing correct CASE conditions
 
----
-
-## ✅ How I Solved Them
-
-- Practiced on the same tables repeatedly
-- Wrote queries incrementally instead of all at once
-- Added comments to explain *why* each part exists
-- Focused on logic before syntax
-
----
-
-## 📈 Current Status
-
-I can confidently:
-- Combine multiple tables
-- Write nested queries
-- Perform analytical ranking
-- Explain my SQL decisions clearly
-
-Next step: **Advanced SQL (CASE statements, CTEs, advanced window functions)**
-
----
+## Outcome
+I can confidently write, read, and explain **intermediate SQL queries** and am now preparing to move into **advanced SQL concepts** like CTEs and optimization.
 
 Learning SQL one query at a time.
